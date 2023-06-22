@@ -1,0 +1,11 @@
+"use strict";
+// const point: [number, number] = [10, 20];
+// console.log(point);
+// point[0] = 100;
+// point[1] = 200;
+// console.log(point);
+const goodStatus = [200, "OK"];
+const notFound = [404, "ไม่พบข้อมูล"];
+const badRequest = [400, "คำขอไม่ถูกต้อง"];
+const serverError = [500, "Internal Server Error"];
+console.log(goodStatus);
